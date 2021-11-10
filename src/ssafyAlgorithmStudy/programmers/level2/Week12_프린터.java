@@ -3,14 +3,6 @@ package programmers;
 import java.util.*;
 
 public class Week12_«¡∏∞≈Õ {
-
-	public static void main(String[] args) {
-		int[] p = { 2, 3, 3, 2, 9, 3, 3 };
-		int l = 3;
-
-		System.out.println(solution(p, l));
-	}
-
 	public static int solution(int[] priorities, int location) {
 		int[] docs = new int[10];
 		Queue<Integer> queue = new LinkedList<>();
